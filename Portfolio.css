@@ -1,0 +1,46 @@
+Portfolio CSS
+h1 {
+font-family: 'Open Sans', sans-serif, Arial;
+color: blue;
+text-align: left;
+font-size: 50px;
+}
+
+p{
+  font-size: 20px;
+  font-family:'Open Sans', sans-serif, Arial;
+  color: black;
+}
+
+ .orange{
+ background-color: orange;
+}
+
+.yellow{
+  background-color: yellow;
+}
+.fuchsia{
+  background-color:fuchsia;
+}
+/*li {                                    /*-- alignment for Menu HORZ. TBF
+  display: inline-block;
+  text-align: center;
+  horizontal-align: middle;
+  line-height: 90px;
+  }*/
+
+ li{                                     /*--alignment for Target Audience--TBF*/
+ display:block,vertical;
+  float:right;
+  padding: 5px;
+}
+ul {
+  width: 250px;
+  height:20px;
+}
+li {
+  margin: 10px;
+}
+ul.target-audience {
+  list-style-position:outside;
+}
