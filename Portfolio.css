@@ -1,9 +1,7 @@
-Portfolio CSS
+/*Portfolio CSS*/
 h1 {
-font-family: 'Open Sans', sans-serif, Arial;
-color: blue;
-text-align: left;
-font-size: 50px;
+text-align: center;
+font-size: 100px;
 }
 
 p{
@@ -12,35 +10,65 @@ p{
   color: black;
 }
 
- .orange{
- background-color: orange;
+  #nav {                                /*-- set up alignment for <h2>Menu</h2>*/
+   border: 10px solid #0088dd;
+   margin: 40px;
+   height: 80px;
+   display: inline-flex;
+ }
+div {
+  display:inline-block;
+  list-style-type:none;                 /*--horizontal alignment for categories A-C*/
 }
-
-.yellow{
-  background-color: yellow;
-}
-.fuchsia{
-  background-color:fuchsia;
-}
-/*li {                                    /*-- alignment for Menu HORZ. TBF
-  display: inline-block;
-  text-align: center;
-  horizontal-align: middle;
-  line-height: 90px;
-  }*/
 
  li{                                     /*--alignment for Target Audience--TBF*/
  display:block,vertical;
   float:right;
   padding: 5px;
 }
-ul {
-  width: 250px;
-  height:20px;
-}
 li {
   margin: 10px;
 }
-ul.target-audience {
+ul {
+  width: 220px;
+  height:20px;
   list-style-position:outside;
+  list-style-type:none;
 }
+#ABE {                                  /*alignment for ABE Res box,  --*/
+  border: 8px solid #0088dd;
+  margin: 40px;
+  height: 150px;
+  display: block,vertical;
+  text-align: center;
+  float: left;
+  padding: 5px;
+}
+#LP {                                   /*<li> for ABE Res,changed to drop-down list .--*/
+  vertical-align:text-top;
+  float: left;
+
+}
+#ACT{                                   /*<li> for ABE Res,changed to drop-down list--*/
+  vertical-align:text-middle;
+  float: left;
+}
+#ART {                                  /*<li> for ABE Res,changed to drop-down list--*/
+  vertical-align: text-bottom;
+  float: left;
+}
+
+
+
+
+/*PARKING LOT - HOLD CODE*/
+/*.orange{
+background-color: orange;
+}
+
+.yellow{
+ background-color: yellow;
+}
+.fuchsia{
+ background-color:fuchsia;
+}*/

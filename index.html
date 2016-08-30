@@ -5,26 +5,28 @@
     <!--INSERT CSS LINKS -->
     <link rel= "stylesheet" type "text/css"  href= "Portfolio.css">
       <body>
-        <h1> Adult Education Resource Site</h1>
-            <div><h2><ul>Menu</h2>
-              <ul>
-                <li> Category A Lesson Plans & Activities</li>
-                <li> Category B Professional Development Resources</li>
-                <li> Category C Future of Adult Education-State & Federal Updates</li>
-             </ul>
-            </div>
+        <h1>Adult Education Resource Site</h1>
+            <br />
+                  <h2><ul>Menu</h2>
+
+                    <div id = "nav">
+                    <li>Category A Lesson Plans & Activities</li><br />
+                    <li> Category B Professional Development Resources</li>
+                    <li> Category C Future of Adult Education-State & Federal Updates</li>
+                </ul>
+              </div>
               <br />
 
             <p> Message to the User - TBA</p>
 
-              <br />
+            <br />
               <ul class= "Target Audience">
                 <h2><ul>Target Audience</h2>
-                <li> ABE Instructors/Administrators</li>
-                <li> ESOL Instructors/Administrators</li>
-                <li> NPO Education/Literacy Program Providers</li>
-                <li> FBO Education/Literacy Program Providers</li>
-                <li> Volunteer Community based Education Providers</li>
+                  <li> ABE Instructors/Administrators</li>
+                  <li> ESOL Instructors/Administrators</li>
+                  <li> NPO Education/Literacy Program Providers</li>
+                  <li> FBO Education/Literacy Program Providers</li>
+                  <li> Volunteer Community based Education Providers</li>
               </ul>
 
 <!-- Sign in form goes here-->
@@ -42,16 +44,37 @@
             <input type="email" name="email" size="30" maxlength="50">
           </label>
           <br />
-          <input type="submit" value="Submit"/>
+          <input type="submit" value="Submit"/>                  <!-- create .on()-->
           <p> User must click submit to go to next page</p>
           <br />
         </fieldset>
-
-
-<!--INSERT SCRIPT TAGS HERE-->
         <footer>
           &copy: 2016 Create Opportunities, LLC
         </footer>
+        <hr />                                          <!--line break between pg1 & pg2-->
+
+        <h1> Category A - Lesson Plans & Actvities</h1>        <!-- hide from user in browser-->
+        <br />
+        <p> Message to the User: What you will find here...</p>
+        <br />
+         <div id="ABE">
+            <h2><ul>Adult Basic Education Resources</h2><br />
+            <label for= "ABE-LSNPLNS"></label>
+            <select id= "ABE-LSNPLNS" name="Lesson Plans"><br /> <!-- works - goes to drop down list-->
+            <option value="choose">Please select a learning content area</option>
+            <option value="Lesson Plans"> Lesson Plans</option> <!--need to connect to file-->
+            <option value="Activities">Activities</option>      <!--need to connect to file-->
+            <option value="Articles">Articles</option>          <!--need to connect to file-->
+          </ul>
+        </div>
+
+
+
+
+<!--INSERT SCRIPT TAGS HERE-->
+      <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+      <script type= "text/javascript"src=constructor.js>
+      </script>
     </body>
   </head>
 </html>
