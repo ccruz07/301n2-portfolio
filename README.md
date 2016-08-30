@@ -9,3 +9,8 @@ Aug. 29, 2016 - Worked on js, tried to set up function to connect Category A Les
 but not completed this task yet.
 Worked on html doc and CSS, made some minor improvements for alignment.
 1st time-Looked at browser view in Responsive mode- will continue to refine.
+
+Aug. 30, 2016 - Worked on js, fixed up some functions to connect submit button & hide page 2 -Category A until clicked.
+Set-up Home and About tabs, content-TBA.
+Changed word doc into html files and connected to event delegation functions.
+Cleaned up CSS file.
