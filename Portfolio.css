@@ -1,0 +1,93 @@
+/*Portfolio CSS*/
+h1 {                                /*Main headers*/
+text-align: center;
+font-size: 100px;
+}
+
+p{
+  font-size: 20px;
+  font-family:'Open Sans', sans-serif, Arial;
+  color: black;
+}
+
+#container2, #containerAbout, #containerContact {
+  display: none;
+}
+
+.lineItUp {
+  display: inline-block;
+}
+
+#nav {                                /*-- set up alignment for Menu*/
+   border: 10px solid #0088dd;
+   width: 93%;
+   height: 80px;
+   margin: auto;
+}
+
+.inlineMenu li{                                     /*--alignment for Target Audience--TBF*/
+   display: inline-block;
+   padding: 5px;
+   margin: 0px;
+   font-size: 16px;
+   border-left: 1px solid black;
+ }
+/*li {
+  margin: 10px;
+}*/
+ul {                                    /*--removed bullets for Target Audience list*/
+  list-style-position:outside;
+  list-style-type:none;
+}
+
+#targetAudience ul li {
+  border: none;
+  display: block;
+
+}
+#ABE {                                  /*alignment for ABE Res box,  --*/
+  border: 8px solid #0088dd;
+  margin: 40px;
+  height: 150px;
+  width: 250px;
+  text-align: center;
+  padding: 5px;
+  display: inline-block;
+}
+#LP {                                   /*<li> for ABE Res,changed to drop-down list .--*/
+  vertical-align:text-top;
+  float: left;
+
+}
+#ACT{                                   /*<li> for ABE Res,changed to drop-down list--*/
+  vertical-align:text-middle;
+  float: left;
+}
+#ART {                                  /*<li> for ABE Res,changed to drop-down list--*/
+  vertical-align: text-bottom;
+  float: left;
+}
+#ESOL {                                  /*alignment for ESOL Res box,  --*/
+  border: 8px solid #0088dd;
+  margin: 40px;
+  height: 150px;
+  width: 250px;
+  text-align: center;
+  padding: 5px;
+  display: inline-block;
+}
+
+
+
+
+/*PARKING LOT - HOLD CODE*/
+/*.orange{
+background-color: orange;
+}
+
+.yellow{
+ background-color: yellow;
+}
+.fuchsia{
+ background-color:fuchsia;
+}*/

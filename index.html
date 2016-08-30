@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> CA Cruz Portfolio Project</title>
+    <!--INSERT CSS LINKS -->
+    <link rel= "stylesheet" type "text/css"  href= "Portfolio.css">
+  </head>
+  <body>
+
+
+    <h1>Adult Education Resource Site</h1>
+    <br />
+
+    <nav id="mainMenu">
+      <ul class="inlineMenu">
+        <li id="home">Home</li>
+        <li id="about">About this Site</li>
+        <li id="contact">Contact Us</li>
+      </ul>
+    </nav>
+  <div id="container">
+
+
+    <div id="nav">
+      <ul class="inlineMenu">
+        <li>Menu</li>
+        <li>Category A Lesson Plans & Activities</li>
+        <li>Category B Professional Development Resources</li>
+        <li>Category C Future of Adult Education-State & Federal Updates</li>
+      </ul>
+    </div>
+    <br />
+
+    <p> Message to the User - TBA</p>
+
+    <br />
+
+    <h2>Target Audience</h2>
+    <ul class= "Target Audience">
+      <li> ABE Instructors/Administrators</li>
+      <li> ESOL Instructors/Administrators</li>
+      <li> NPO Education/Literacy Program Providers</li>
+      <li> FBO Education/Literacy Program Providers</li>
+      <li> Volunteer Community based Education Providers</li>
+    </ul>
+
+<!-- Sign in form goes here-->
+    <fieldset>
+      <legend>
+        Sign In:
+      </legend>
+      <label>
+        Name:
+        <input type="text" name="name" size="30" maxlength="50">
+      </label>
+      <br />
+      <label>
+        Email:
+      <input type="email" name="email" size="30" maxlength="50">
+      </label>
+      <br />
+      <input type="submit" value="Submit" id="submitPageOne"/>                  <!-- create .on()-->
+        <p> User must click submit to go to next page</p>
+      <br />
+    </fieldset>
+
+
+  </div>
+  <div id="container2">
+    <h1> Category A - Lesson Plans & Actvities</h1>        <!-- hide from user in browser-->
+    <br />
+    <p> Message to the User: What you will find here...</p>
+    <br />
+
+
+    <div id="ABE" class="lineItUp">
+      <h2>Adult Basic Education Resources</h2>
+      <br />
+      <label for="ABE-LSNPLNS" id="selectLabel"></label>
+      <select id= "ABE-LSNPLNS" name="Lesson Plans"> <!-- works - goes to drop down list-->
+        <option value="choose">Please select a learning content area</option>
+        <option value="Lesson Plans"> Lesson Plans</option> <!--need to connect to ABEfile-->
+        <option value="Activities">Activities</option>      <!--need to connect to ABEfile-->
+        <option value="Articles">Articles</option>          <!--need to connect to ABEfile-->
+      </select>
+    </div>
+
+
+        <div id="ESOL" class="lineItUp">
+          <h2>English for Speakers of Other Languages Resources</h2>
+          <br />
+          <label for="ESOL" id="selectLabel"></label>  <!--change to ESOL-->
+          <select id= "ESOL" name="Lesson Plans"> <!-- works - goes to drop down list-->
+            <option value="choose">Please select a learning content area</option>
+            <option value="Lesson Plans"> Lesson Plans</option> <!--need to connect to ESOLfile-->
+            <option value="Activities">Activities</option>      <!--need to connect to ESOLfile-->
+            <option value="Articles">Articles</option>          <!--need to connect to ESOLfile-->
+          </select>
+        </div>
+
+<!--INSERT SCRIPT TAGS HERE-->
+      <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+      <script type= "text/javascript"src=constructor.js></script>
+  </div>
+
+
+  <div id="containerAbout">
+    THIS IS A Resrouce PAGE!
+  </div>
+
+  <div id="containerContact">
+    CALL 1800-whatever
+  </div>
+
+  <footer>
+    &copy: 2016 Create Opportunities, LLC
+  </footer>
+  <hr />                                          <!--line break between pg1 & pg2-->
+
+  </body>
+</html>
