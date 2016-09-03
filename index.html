@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+
     <title> CA Cruz Portfolio Project</title>
+    <!--REQUIRED FOR CLASS3 Assignment <meta name="viewport"content="width=device-width,initial-scale=1.0">-->
+
+
+
     <!--INSERT CSS LINKS -->
     <link rel= "stylesheet" type "text/css"  href= "Portfolio.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/modules.css">
+
+
+
   </head>
   <body>
-
-
     <h1>Adult Education Resource Site</h1>
     <br />
 
-    <nav id="mainMenu">
-      <ul class="inlineMenu">
-        <li id="home">Home</li>
-        <li id="about">About this Site</li>
-        <li id="contact">Contact Us</li>
+    <nav class="mainMenu">
+
+      <i class="icon-menu"></i>
+      <ul>
+        <li id="home"><a href="#" class="icon-home3"> Home</a></li>
+        <li id="about"><a href="#" class="icon-address-book"> About this Site</a></li>
+        <li id="contact"><a href="#">Contact Us</a></li>
       </ul>
     </nav>
   <div id="container">
@@ -72,31 +86,52 @@
     <p> Message to the User: What you will find here...</p>
     <br />
 
-
     <div id="ABE" class="lineItUp">
       <h2>Adult Basic Education Resources</h2>
       <br />
       <label for="ABE-LSNPLNS" id="selectLabel"></label>
       <select id= "ABE-LSNPLNS" name="Lesson Plans"> <!-- works - goes to drop down list-->
         <option value="choose">Please select a learning content area</option>
-        <option value="Lesson Plans"> Lesson Plans</option> <!--need to connect to ABEfile-->
-        <option value="Activities">Activities</option>      <!--need to connect to ABEfile-->
-        <option value="Articles">Articles</option>          <!--need to connect to ABEfile-->
+        <option value="Lesson Plans">Lesson Plans</option> <!--DONE- connect to ABEfile-->
+        <option value="Activities">Activities</option>      <!--DONE- connect to ABEfile-->
+        <option value="Articles">Articles</option>          <!--DONE- connect to ABEfile-->
       </select>
     </div>
 
 
-        <div id="ESOL" class="lineItUp">
+    <div id="ESOL" class="lineItUp">
           <h2>English for Speakers of Other Languages Resources</h2>
           <br />
-          <label for="ESOL" id="selectLabel"></label>  <!--change to ESOL-->
-          <select id= "ESOL" name="Lesson Plans"> <!-- works - goes to drop down list-->
+          <label for="ESOL-LsPlnRes" id="selectLabel"></label>  <!--change to ESOL-->
+          <select id= "ESOL-LsPlnRes" name="Lesson Plans"> <!-- works - goes to drop down list,not connected to files yet-->
             <option value="choose">Please select a learning content area</option>
-            <option value="Lesson Plans"> Lesson Plans</option> <!--need to connect to ESOLfile-->
-            <option value="Activities">Activities</option>      <!--need to connect to ESOLfile-->
-            <option value="Articles">Articles</option>          <!--need to connect to ESOLfile-->
+            <option value="Lesson Plans"> Lesson Plans</option> <!--DONE- connect to ESOLfile-->
+            <option value="Activities">Activities</option>      <!--DONE- connect to ESOLfile-->
+            <option value="Articles">Articles</option>          <!--DONE- to connect to ESOLfile-->
+          </select>
+    </div>
+        <input type="submit" value="Next Page" id="nextPage"/>                  <!-- create .on()-->
+  </div>
+
+      <div id="container3">
+        <h1> Category B - Professional Development Resources</h1>        <!-- need to hide from user in browser-->
+         <br />
+         <p> Message to the User: What you will find here...</p>
+        <br />
+      <div id="PD" class="lineItUp">
+          <h2>Professional Development Resources</h2>
+           <br />
+           <label for="Professional Development" id="selectLabel"></label>
+           <select id="Professional-Development" name="Resources"> <!-- works - goes to drop down list-->
+            <option value="choose">Please select a learning content area</option>
+            <option value="Trainings"> Trainings</option>             <!--html file rdy to connect to ProfDevResfile-->
+            <option value="Conferences">Conferences</option>          <!--html file rdy to connect to ProfDevResfile-->
+            <option value="Webinars">Webinars</option>                <!--TBA connect to ProfDevResfile-->
+            <option value="Articles">Articles</option>                <!--TBA connect to ProfDevResfile-->
           </select>
         </div>
+
+
 
 <!--INSERT SCRIPT TAGS HERE-->
       <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
