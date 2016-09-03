@@ -53,17 +53,17 @@ $(document).ready(function() {
     var picked = $("#ESOL-LsPlnRes").val();
     if(picked == "Lesson Plans")
     {
-        window.location.href = "./ESOL-LsPlnRes/ESOLindex.html";   //DONE- connected to html files//
+        window.location.href = "./esol-LsPlnRes/esolindex.html";   //DONE- connected to html files//
     }
     else if(picked == "Activities")
     {
-      window.location.href = "./ESOL Activities/ESOLActivitiesindex.html";  //DONE-connected to html files//
+      window.location.href = "./esol-Activities/esolActivitiesindex.html";  //DONE-connected to html files//
     }
     else if(picked == "Articles")
     {
-      window.location.href = "./ESOL Articles/ESOLArticlesindex.htm";  //DONE-connected to html files//
+      window.location.href = "./esol-Articles/esolArticlesindex.htm";  //DONE-connected to html files//
     }
-    }
+  })
   });
 
   //Professional-Development
@@ -81,7 +81,7 @@ $(document).ready(function() {
     }
   }
 
-  $("#mainMenu").click(function(e) {            
+  $("#mainMenu").click(function(e) {
       if(e.target.id == "home")
       {
         changeToPage("container");
@@ -95,4 +95,3 @@ $(document).ready(function() {
         changeToPage("containerContact");
       }
   });
-});

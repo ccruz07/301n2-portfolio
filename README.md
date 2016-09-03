@@ -20,3 +20,6 @@ Fixed the box display for ESOL, now title and drop-down menu are in same box. St
 
 Sept 1 -2, 2016 - worked on class 3 tech requirements, added 2 icons and a metatag. New styles with media queries N/A at this time.
 Fixed drop-down list for ESOL, now connected to html files, set up Next Page button to go to Category B. Js function works to go to next page. Category B Professional Development drop down list is set up with 2 html files ready to connect. Next steps - finish last 2 html files for this category, connect all the files and test it.
+
+Sept 3, 2016 - had minor problem with submit button on home page, but fixed it. Instructor renamed ESOL files to lowercase esol, had to make changes in constructor.js to match renamed files. All files in ABE-LSNPLNS and ESOL-LsPlnRes now attached and working properly.
+Category B Professional Development drop down list is set up with 2 html files ready to connect. Next steps - finish last 2 html files for this category, connect all the files and test it.
