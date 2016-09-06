@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <!--REQUIRED FOR CLASS3 Assignment <meta name="viewport"content="width=device-width,initial-scale=1.0">-->
+
+    <title> CA Cruz Portfolio Project</title>
+    <!--INSERT CSS LINKS -->
+    <link rel= "stylesheet" type "text/css"  href= "Portfolio.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/modules.css">
+
+    <!--REQUIRED FOR CLASS04- Assignment: add handlebars to blogging system-->
+
+
+</head>
+  <body>
+    <!--This is our template. -->
+    <!--Data will be inserted in its according place, replacing the brackets.-->
+
+    <!--Your new content will be displayed in here-->
+    <div class="content-placeholder"></div>
+
+
+      <h1>Adult Resource Site</h1>
+
+
+    <br />
+
+    <nav class="mainMenu">
+
+      <i class="icon-menu"></i>
+      <ul>
+        <li id="home"><a href="#" class="icon-home3"> Home</a></li>
+        <li id="about"><a href="#" class="icon-address-book"> About this Site</a></li>
+        <li id="contact"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  <div id="container">
+
+
+    <div id="nav">
+      <ul class="inlineMenu">
+        <li>Menu</li>
+        <li>Category A Lesson Plans & Activities</li>
+        <li>Category B Professional Development Resources</li>
+        <li>Category C Future of Adult Education-State & Federal Updates</li>
+      </ul>
+    </div>
+    <br />
+
+    <p> Message to the User - TBA</p>
+
+    <br />
+
+    <h2>Target Audience</h2>
+    <ul class= "Target Audience">
+      <li> ABE Instructors/Administrators</li>
+      <li> ESOL Instructors/Administrators</li>
+      <li> NPO Education/Literacy Program Providers</li>
+      <li> FBO Education/Literacy Program Providers</li>
+      <li> Volunteer Community based Education Providers</li>
+    </ul>
+
+<!-- Sign in form goes here-->
+    <fieldset>
+      <legend>
+        Sign In:
+      </legend>
+      <label>
+        Name:
+        <input type="text" name="name" size="30" maxlength="50">
+      </label>
+      <br />
+      <label>
+        Email:
+      <input type="email" name="email" size="30" maxlength="50">
+      </label>
+      <br />
+      <input type="submit" value="Submit" id="submitPageOne"/>                  <!-- create .on()-->
+        <p> User must click submit to go to next page</p>
+      <br />
+    </fieldset>
+
+
+  </div>
+  <div id="container2">
+    <h1> Category A - Lesson Plans & Actvities</h1>        <!-- hide from user in browser-->
+    <br />
+    <p> Message to the User: What you will find here...</p>
+    <br />
+
+    <div id="ABE" class="lineItUp">
+      <h2>Adult Basic Education Resources</h2>
+      <br />
+      <label for="ABE-LSNPLNS" id="selectLabel"></label>
+      <select id= "ABE-LSNPLNS" name="Lesson Plans"> <!-- works - goes to drop down list-->
+        <option value="choose">Please select a learning content area</option>
+        <option value="Lesson Plans">Lesson Plans</option> <!--DONE- connect to ABEfile-->
+        <option value="Activities">Activities</option>      <!--DONE- connect to ABEfile-->
+        <option value="Articles">Articles</option>          <!--DONE- connect to ABEfile-->
+      </select>
+    </div>
+
+    <div id="ESOL" class="lineItUp">
+          <h2>English for Speakers of Other Languages Resources</h2>
+          <br />
+          <label for="ESOL-LsPlnRes" id="selectLabel"></label>  <!--change to ESOL-->
+          <select id= "ESOL-LsPlnRes" name="Lesson Plans"> <!-- works - goes to drop down list,not connected to files yet-->
+            <option value="choose">Please select a learning content area</option>
+            <option value="Lesson Plans"> Lesson Plans</option> <!--DONE- connect to ESOLfile-->
+            <option value="Activities">Activities</option>      <!--DONE- connect to ESOLfile-->
+            <option value="Articles">Articles</option>          <!--DONE- to connect to ESOLfile-->
+          </select>
+    </div>
+        <input type="submit" value="Next Page" id="nextPage"/>                  <!-- create .on()-->
+  </div>
+
+      <div id="container3">
+        <script id="address-template" type="text/x-handlebars-template"
+          <article  data-category="{{category}}">
+            <header>
+              <h1>{{title}}</h1>
+              <div class="byline">
+                By <address><a href="{{authorUrl}}">{{author}}</a></address>
+                published <time pubdate datetime="2000-01-01">{{publishedOn}}</time>
+              </div>
+            </header>
+            <section class="article-body">
+              {{body}}
+            </section>
+            <a href="#" class="read-on">Read on &rarr;</a>
+          </article>
+        </script>
+        <h1> Category B - Professional Development Resources</h1>        <!-- need to hide from user in browser-->
+         <br />
+         <p> Message to the User: {{motd}} What you will find here...</p>
+        <br />
+      <div id="PD" class="lineItUp">
+          <h2>Professional Development Resources</h2>
+           <br />
+           <label for="Professional Development" id="selectLabel"></label>
+           <select id="Professional-Development" name="Resources"> <!-- works - goes to drop down list-->
+            <option value="choose">Please select a learning content area</option>
+            <option value="Trainings"> Trainings</option>             <!--DONE-connected html file to ProfDevResfile-->
+            <option value="Conferences">Conferences</option>          <!--DONE-connected html file to ProfDevResfile-->
+            <option value="Webinars">Webinars</option>                <!--DONE-connected html file to ProfDevResfile-->
+          </select>
+        </div>
+
+
+
+<!--INSERT SCRIPT TAGS HERE-->
+      <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="scripts/constructor.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+      <script src="scripts/blogArticles.js"></script>
+      <script src="scripts/articles.js"></script>
+      <script src="scripts/articleView.js"></script>
+<script>
+$(function () {
+  // Grab the template script
+  var theTemplateScript = $("#address-template").html();
+
+  // Compile the template
+  var theTemplate = Handlebars.compile(theTemplateScript);
+
+  // Define our data object
+  var context={
+    "title": "Adult Education Resources Site",
+    "author": "CA",
+    "foo": "test",
+    "body": "This handlebars template is awesome, I understand how it works, but it doesn't really fit with what I set out to accomplish.  I'm including it for now but will probably remove it later."
+  };
+
+  // Pass our data to the template
+  var theCompiledHtml = theTemplate(context);
+
+  // Add the compiled html to the page
+  $('.content-placeholder').html(theCompiledHtml);
+});
+</script>
+  </div>
+
+
+  <div id="containerAbout">
+    THIS IS A Resrouce PAGE!
+  </div>
+
+  <div id="containerContact">
+    CALL 1800-whatever
+  </div>
+
+  <footer>
+    &copy: 2016 Create Opportunities, LLC
+  </footer>
+  <hr />                                          <!--line break between pg1 & pg2-->
+
+  </body>
+</html>
