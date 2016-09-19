@@ -2,9 +2,8 @@
 
 var openPage = "container";
 
-function Content(lessonPlans, activities, articles) {                //Cat A/
+function Content(lessonPlans, articles) {                //Cat A/
   this.lessonPlans = lessonPlans;
-  this.activities = activities;
   this.articles = articles;
 
   this.toHTML = function() {

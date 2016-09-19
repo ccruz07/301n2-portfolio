@@ -1,6 +1,63 @@
 ﻿//PORTFOLIO blogArticles.js//
 var rawData = [
+
   {
+    title: 'ESL Flow',
+    category: 'lessonPlans',
+    author: 'ESL Flow',
+    authorUrl: 'http://www.eslflow.com/readinglessonplans.html',
+    publishedOn: '00-00-00',
+    body: '<p> TBA </p>',
+
+    title: 'TEAL-Teaching Excellence in Adult Literacy',
+    category: 'lessonPlans',
+    author:'no author',
+    authorUrl: 'https://teal.ed.gov/tealguide.lessonplanning',
+    publishedOn:'2013-02-01',
+    body: '<p> TBA</p>',
+
+    title: 'One-Stop English',
+    category:'lessonPlans',
+    author: 'MacMillian Publishers',
+    authorUrl: 'http://onestopenglish.com/skills.reading/topic-based-lesson-plans',
+    publishedOn: '2016-01-01',
+    body: '<p> TBA </p>',
+
+    title: 'Education World',
+    category: 'lessonPlans',
+    author: 'no author',
+    authorUrl: 'http://www.eductionworld.com/a_lesson/archives/firday.shtml',
+    publishedOn: '2016-09-27',
+    body: '<p> TBA </p>',
+
+    title: 'Marshall Adult Education',
+    category: 'activities',
+    author: 'no author',
+    authorUrl: 'http://resources.marshalladulteducation.org/reading_skills_home.htm',
+    publishedOn: '00-00-00',
+    body: '<p> TBA </p>',
+
+    title: 'Southern Lincs-Learning Activities',
+    category: 'activities',
+    author: 'no author',
+    authorUrl: 'http://slinc.coe.utk.edu/gtelab/find.html',
+    publishedOn: '00-00-00',
+    body: '<p> TBA </p>',
+
+    title: 'California Distance Learning Project - Adult Learning Activitie',
+    category: 'activities',
+    author: 'California Distance Learning Project',
+    authorUrl: 'http://www.cdlponline.org',
+    publishedOn: ' 2011-01-01',
+    body: '<p> TBA </p>',
+
+    title: 'National Adult Literacy Agency- Literacy Tools ie',
+    category: 'activities',
+    author: 'National Adult Literacy Agency',
+    authorUrl: 'http://www.literacytools.ie/games.cfm',
+    publishedOn: '2016-01-01',
+    body: '<p> TBA </p>',
+
     title: '10 Blogs about Adult Education',
     category: 'Articles',
     author: 'Ann Walker',
