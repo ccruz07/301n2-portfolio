@@ -1,0 +1,117 @@
+<!DOCTYPE html>              <!--301 Portfolio Redesign-->
+<html>
+  <head>
+    <meta name+ "viewport" content= "width=device-width, initial-scale= 0.5">
+    <!-- REQUIRED FOR CLASS3 Assigment <mtea tag>-->
+
+    <title> CA Cruz Portfolio Project</title>
+
+    <!--turn on later- CSS LINKS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/modules.css">
+    <link rel="stylesheet" type="text/css" href="styles/Portfolio.css">
+
+
+    <link rel="stylesheet" href="styles/icons.css">
+
+  </head>
+  <body>
+          <!--This is our template. -->
+          <!--Data will be inserted in its according place, replacing the brackets.-->
+          <!--Your new content will be displayed in here-->
+
+          <nav class="mainMenu">
+
+            <i class="icon-menu"></i>                              <!--this works-->
+            <ul>
+              <li id="home"><a href="#" class="icon-home3"> Home</a></li>
+              <li id="about"><a href="#" class="icon-address-book"> About this Site</a></li>
+            </ul>
+          </nav>
+
+          <div class="content-placeholder"></div>
+
+
+            <h1> what should go here TBA???????</h1>
+          <br />
+
+
+          <div id="mainSection">
+
+            <h1> Cruz Bio</h1>        <!-- hide from user in browser-->
+            <br />
+            <img src= "http://www.cruzcreations.co/wp-content/uploads/2014/05/Cheryl-s-Pic-e1399490275343.jpg"/>
+            <p>About Me &hearts;</p>
+            <a href="AboutMeindex.html">Read on &rarr;</a>
+<!--CHANGE THIS TO READ ON.... <link rel= "AboutMe" type= "text/AboutMe" href="AboutMeindex.html">
+            <br
+<!-- CHANGE THIS SECTION TO NEW DROP-DOWN LIST-->
+            <div id="Projects" class="lineItUp">
+            </div>
+
+            <div id="articles">
+            </div>
+            <!-- REQUIRED FOR CLASS04- handlebars template, how are we using this?????IDK-->
+
+            <!--<div id="container3">-->
+              <script id="article-template" type="text/x-handlebars-template">
+                <article data-category="{{category}}">
+                  <header>
+                    <h1>{{title}}</h1>
+                    <div class="byline">
+                      By <address><a href="{{authorUrl}}">{{author}}</a></address>
+                      published <time pubdate datetime="2000-01-01">{{publishedOn}}</time>
+                    </div>
+                  </header>
+                  <section class="article-body">
+                    {{{body}}}
+                  </section>
+                  <a href="{{authorUrl}}" class="read-on">Read on &rarr;</a>
+                </article>
+              </script>
+              <!--INSERT SCRIPT TAGS HERE-->
+                    <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+                    <script src="scripts/blogArticles.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+                    <script type="text/javascript" src="scripts/constructor2.js"></script>
+<!--                    <script src="scripts/articles.js"></script> -->
+                    <script src="scripts/articleView.js"></script>
+              <!--<script>
+              $(function () {
+                // Grab the template script
+                var theTemplateScript = $("#address-template").html();
+
+                // Compile the template
+                var theTemplate = Handlebars.compile(theTemplateScript);
+
+                // Define our data object
+                var context={
+                  "title": "Title: of this IDK???",
+                  "author": "CA",
+                  "foo": "test",
+                  "body": "This handlebars template is TBA."
+                };
+
+                // Pass our data to the template
+                var theCompiledHtml = theTemplate(context);
+
+                // Add the compiled html to the page
+                $('.content-placeholder').html(theCompiledHtml);
+              });
+              </script>
+                <!--</div>-->
+
+
+                <div id="containerAbout">
+                  TBA!
+                </div>
+
+                <footer>
+                  &copy: 2016 Create Opportunities, LLC
+                </footer>
+                <hr />                                          <!--line break between pg1 & pg2-->
+
+                </body>
+              </html>
