@@ -1,4 +1,4 @@
-var articles = [];                      //CLASS04  article.js//
+var articles = [];                      //CLASS04  article.js DELETE IT LATER//
 
 function Article (opts) {
   this.author = opts.author;
@@ -33,7 +33,7 @@ rawData.sort(function(a,b) {
 
 rawData.forEach(function(ele) {
   articles.push(new Article(ele));
-})
+});
 
 articles.forEach(function(a){
   $('#articles').append(a.toHtml())

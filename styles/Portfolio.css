@@ -1,7 +1,7 @@
 /*Portfolio CSS*/
 h1 {                                /*Main headers*/
 text-align: center;
-font-size: 100px;
+font-size: 40px;
 }
 
 p{
@@ -12,6 +12,15 @@ p{
 
 #container2, #containerAbout, #containerContact, #container3 {
   display: none;
+}
+
+#container2, #containerAbout, #containerContact, #container3, #mainSection {
+  width: 80%;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .lineItUp {                             /*what does this connect to???*/

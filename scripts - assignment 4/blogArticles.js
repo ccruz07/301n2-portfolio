@@ -1,5 +1,4 @@
 ﻿//PORTFOLIO blogArticles.js//
-/*
 var rawData = [
 
   {
@@ -62,4 +61,3 @@ var rawData = [
   body: '<p>Growing up in Oaxaca, Mexico, Octaviano was forced to leave school before completing the first grade. For the next 20 years, his only “academic skill” was the ability to write his own name. A seasonal farm hand, Octaviano continued that work when he moved to the United States, until an accident left him unable to. It was then that he decided to learn English and work toward becoming a U.S. citizen. His plan was solid, except for the fact that he made this decision while living in a rural area that did not offer many educational opportunities for adult learners.</p>'
 }
 ]
-*/
