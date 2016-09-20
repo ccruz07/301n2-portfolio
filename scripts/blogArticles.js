@@ -1,5 +1,5 @@
 ﻿//PORTFOLIO blogArticles.js//
-(function() {
+(function() {                         //CLASS07//
 
 
 var rawData = [

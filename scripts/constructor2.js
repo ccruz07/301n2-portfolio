@@ -4,7 +4,7 @@
 
 var articles = [];                      //CLASS07 //
 
-function Article (opts) {
+function Article (opts) { 
   this.author = opts.author;
   this.authorUrl = opts.authorUrl;
   this.title = opts.title;
