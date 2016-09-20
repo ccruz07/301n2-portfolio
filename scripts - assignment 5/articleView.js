@@ -1,6 +1,5 @@
 // Configure a view object, to hold all our functions for dynamic updates and article-related event handlers.
 
-(function() {
 
 var articleView = {};
 
@@ -105,5 +104,3 @@ $(document).ready(function(){
   articleView.handleMainNav();
   articleView.setTeasers();
 });
-
-})();
