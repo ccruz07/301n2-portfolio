@@ -10,7 +10,11 @@ var rawData = [
     author: 'no author',
     authorUrl: 'http://resources.marshalladulteducation.org/reading_skills_home.htm',
     publishedOn: '00-00-00',
-    body: '<p> TBA </p>'
+    body: '<p> This project was designed to create leveled reading selections that are appropriate for and valued by adult learners.</p>'
+    '<p> These materials, combined with the research-proven strategies of repeated reading and guided oral reading, aid in building learners fluency and comprehension skills.  The materials correspond to Casas 200 - 235.</p>'
+    '<p> This project helps adults become better readers and more informed consumers, parents, employees, citizens and community members.</p>'
+    '<p> The focus of these reading selections will be on topics such us:  Civics, Employment, Housing, Health, School, Money, and Government.</p>'
+    '<p> This project is funded in part through an EL/Civics Grant from the MN Dept. of Ed - ABE Division and mini-grant from the Minnesota Literacy Council.</p>'
   },
   {
     title: 'Southern Lincs-Learning Activities',
@@ -18,16 +22,17 @@ var rawData = [
     author: 'no author',
     authorUrl: 'http://slincs.coe.utk.edu/gtelab/find.html',
     publishedOn: '00-00-00',
-    body: '<p> TBA </p>'
+    body: '<p> Southern LINCS is a regional site for LINCS , a national electronic information and communication system for adult literacy. This site is a focal point for the southern region with links to state, regional, and national information. SLINCS is hosted by the Southern Regional Technology Center at the Center for Literacy Studies, University of Tennessee.</p>'
+     '<p> Southern LINCS , a consortium of fourteen southern states, is coordinated by the Center for Literacy Studies at The University of Tennessee. The fourteen consortium members are Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia, and West Virginia. </p>'
   },
   {
 
-    title: 'California Distance Learning Project - Adult Learning Activitie',
+    title: 'California Distance Learning Project - Adult Learning Activities',
     category: 'activities',
     author: 'California Distance Learning Project',
     authorUrl: 'http://www.cdlponline.org',
     publishedOn: ' 2011-01-01',
-    body: '<p> TBA! </p>'
+    body: '<p> Use this free site to build reading and life skills </p>'
   },
   {
 
@@ -36,7 +41,9 @@ var rawData = [
     author: 'National Adult Literacy Agency',
     authorUrl: 'http://www.literacytools.ie/games.cfm',
     publishedOn: '2016-01-01',
-    body: '<p> TBA </p>'
+    body: '<p> Welcome to the games section.</p>'
+    '<p> Listed here are a few games that can be played instantly online.</p>'
+    '<p> Please choose a game category or click the button below to view a tour of the games. </p>'
   },
   {
 
